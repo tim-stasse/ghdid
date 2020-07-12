@@ -1,0 +1,50 @@
+{
+  "@context": "https://w3id.org/did/v1",
+  "id": "did:github:tim-stasse",
+  "publicKey": [
+    {
+      "type": "OpenPgpVerificationKey2019",
+      "id": "did:github:tim-stasse#BdhrGVejCt0LeO7Rc37r2f98LYd6IjLeVFZZJd2c6Q4",
+      "controller": "did:github:tim-stasse",
+      "publicKeyPem": "-----BEGIN PGP PUBLIC KEY BLOCK-----\r\nVersion: OpenPGP.js v4.10.4\r\nComment: https://openpgpjs.org\r\n\r\nxk8EXwsTUhMFK4EEAAoCAwRyx7SAZQQXrmiy44IE8oV8U/DrAKyYHR2gId0d\r\ndhPFUNdy7ujOOwjkD9vq1Bq1bsQRu5xaLL8AXh7TX+GH/quxzRdhbm9uIDxh\r\nbm9uQGV4YW1wbGUuY29tPsJ4BBATCAAgBQJfCxNSBgsJBwgDAgQVCAoCBBYC\r\nAQACGQECGwMCHgEACgkQ3Q5wIIc/pVSwTgEAqLU90pcEuuUcHfn+4StXiJKz\r\n6tH2wlqWiJ89QkIqA00A/iPweac2cFANLehMqUsNz/3i2vBNcJNbRqu66WFj\r\n/iy7zlMEXwsTUhIFK4EEAAoCAwR1kUmKLJqdGWzxEFwbICS3aACLIH40QY+c\r\nzc22Me5cYrpLftP9SeIVOO0CaLiR5ybljbkSjinJWTntPgKx+zF6AwEIB8Jh\r\nBBgTCAAJBQJfCxNSAhsMAAoJEN0OcCCHP6VUUwUBAPUpgRfF+I/trKvbrl7H\r\niCVpkEI+l1pRYLn1sbIP09wkAP40Qd7Agt+WZ9w1+0LmC8Fp8Q0E+0m2Jar8\r\nDKW7fwz48A==\r\n=uAob\r\n-----END PGP PUBLIC KEY BLOCK-----\r\n"
+    },
+    {
+      "type": "OpenPgpVerificationKey2019",
+      "id": "did:github:tim-stasse#lZqFInhtsoLZT8kN4FXUd2QxA3Ffgz4mrRfV8I7i38I",
+      "controller": "did:github:tim-stasse",
+      "publicKeyPem": "-----BEGIN PGP PUBLIC KEY BLOCK-----\r\nVersion: OpenPGP.js v4.10.4\r\nComment: https://openpgpjs.org\r\n\r\nxk8EXwsTUhMFK4EEAAoCAwQo3gJtVhu5J0mkqxY5CpfhRnn/S26uwjbfdprC\r\nx4ExLoBYN1vjLWizHJNJW6L9QROlS8EJ8xf6cciRWLhWrjyGzRdhbm9uIDxh\r\nbm9uQGV4YW1wbGUuY29tPsJ4BBATCAAgBQJfCxNSBgsJBwgDAgQVCAoCBBYC\r\nAQACGQECGwMCHgEACgkQ0y7qWxA+G28P3gEAkA0Ld86ehfASW+6nh7KbJWg3\r\nhAfXJo22lQm0HnhgCNgA/0jM33in4EJrTIC+BzXknCgv1ecwB/OqzyUS+oqa\r\n1viVzlMEXwsTUhIFK4EEAAoCAwQlEpaNt7XANdK8aH2ottro3dz9VQrQdkss\r\nZbCtZSDhpuAW5qGW3wlTt6e+62JsvklPNQ1YDkObYBDiRP0MPdmiAwEIB8Jh\r\nBBgTCAAJBQJfCxNSAhsMAAoJENMu6lsQPhtvgCYA/07bWTlMrJzGniZpvbX5\r\nzqr4ymNY5pPTmOuqqRrwxaCVAP9o24PhD7QxFR5EAD90Bt8ub4TnVjc7t+NV\r\nWiXFuCx1UA==\r\n=kgv4\r\n-----END PGP PUBLIC KEY BLOCK-----\r\n"
+    },
+    {
+      "type": "Ed25519VerificationKey2018",
+      "id": "did:github:tim-stasse#pjSE65rx4vGAj9CFs-a5hW5QrniskWm5szQUHSN-G-E",
+      "controller": "did:github:tim-stasse",
+      "publicKeyBase58": "48ScTAsePh3ms7hbQUKPahoYjLhpZib4Whr6tuarjqSZ"
+    }
+  ],
+  "authentication": [],
+  "service": [],
+  "capabilityDelegation": [
+    "did:github:tim-stasse#pjSE65rx4vGAj9CFs-a5hW5QrniskWm5szQUHSN-G-E"
+  ],
+  "capabilityInvocation": [
+    "did:github:tim-stasse#pjSE65rx4vGAj9CFs-a5hW5QrniskWm5szQUHSN-G-E"
+  ],
+  "assertionMethod": [
+    "did:github:tim-stasse#pjSE65rx4vGAj9CFs-a5hW5QrniskWm5szQUHSN-G-E"
+  ],
+  "keyAgreement": [
+    {
+      "id": "did:github:tim-stasse#zC1tz4LkEZvikfvnaeRhgk7BSMQxVrVz1fCQvgBnUCWLFY",
+      "type": "X25519KeyAgreementKey2019",
+      "controller": "did:github:tim-stasse",
+      "publicKeyBase58": "2QGLyZRNYyUEpjcC2D7mx1m4AggtwHQAJXdeLhfoQ69L"
+    }
+  ],
+  "proof": {
+    "type": "Ed25519Signature2018",
+    "created": "2020-07-12T13:42:42Z",
+    "verificationMethod": "did:github:tim-stasse#pjSE65rx4vGAj9CFs-a5hW5QrniskWm5szQUHSN-G-E",
+    "proofPurpose": "assertionMethod",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..nkXF6s5mt8ujJmJNb-w-7uDXS4iTQrvrs2gGr6pdAbeloLrvSPml5JYzU2QHMzYhjP_5WjFU170kP4h9TkxgCQ"
+  }
+}
